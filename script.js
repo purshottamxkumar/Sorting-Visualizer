@@ -7,7 +7,7 @@ function createArr() {
         arr.splice(0, arr.length);
     }
     for(let i = 0; i < sizeOfArr; i++) {
-        let tmp = Math.floor(Math.random() * 75) + 3;
+        let tmp = Math.floor(Math.random() * 70) + 3;
         arr.push(tmp);
     }
 }
