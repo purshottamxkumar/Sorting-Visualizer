@@ -12,6 +12,43 @@ html {
     font-size: 16px
 }
 
+a {
+    color: black;
+    font-family: 'Prompt', sans-serif;
+    font-size: larger;
+    background-color: aliceblue;
+    text-decoration: none;
+
+    position: fixed;
+    right: 2vw;
+    bottom: 1.55vw;
+
+    box-sizing: border-box;
+    padding: 4px;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color:azure;
+    border: 1.5px solid black;
+    padding: 3px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.heading h1 {
+    color: #101820FF;
+    background-color: #FEE715FF ;
+    border: 1.5px solid #101820FF;
+    margin-top: 7px;
+    padding: 0 5px;
+}
+
+.heading h1:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+
 .btn {
     margin: 2px;
     padding: 10px;
@@ -25,6 +62,7 @@ html {
 
 .btn:hover {
     cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .flex-container {
@@ -42,9 +80,9 @@ html {
 .main-container {
     border: 2px solid salmon;
     width: 95vw;
-    margin: 1vh auto;
+    margin: 1.11vh auto 1vh;
     padding: 10px;
-    height: 85vh;
+    height: 75vh;
     background-color: aliceblue;
 }
 
